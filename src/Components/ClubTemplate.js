@@ -92,8 +92,15 @@ const ClubTemplate = () => {
     </Stack>
     </Box>
     </Box>
-    </Stack>
+   <Box  sx={{ justifyContent: "center", display: "flex", alignItems: "center",}} paddingBottom={3} paddingTop={2}> 
+    <Card sx={{ backgroundColor: "#D9D9D9", minHeight: "2em", width: "8em", justifyContent: "center", alignContent: "center", display: "flex", alignItems: "center",}}>
+                <Typography fontSize={"1em"}>Load More</Typography>
+              </Card>
     </Box>
+    </Stack>
+   
+    </Box>
+    
     </Box>
     </>
   )
