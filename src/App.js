@@ -1,24 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Navbar from './Components/Navbar';
+import { Box, Stack } from '@mui/material';
+import Home from './Components/Home';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import EventTemplate from './Components/EventTemplate';
+import LoginPage from './Components/LoginPage';
+import SignupPage from './Components/SignupPage';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+  <BrowserRouter>
+<Box height={"100vh"} width={"100vw"} position={'absolute'} overflow={"hidden"}>
+  <Stack>
+<Box height={"10%"}>
+<Navbar/>
+</Box>
+</Stack>
+
+<Box sx={{width:"100%",height:"90%",overflow:"scroll",overflowX:"hidden","&::-webkit-scrollbar":{width:4,height:9},"&::-webkit-scrollbar-thumb":{background:"black",borderRadius:4,},"&::-webkit-scrollbar-thumb:hover":{background:"red",borderRadius:4,}}}>
+  <Stack>
+  <Routes>
+ <Route path= "/" element={<Home/>}/>
+ <Route path= "/event" element={<EventTemplate />}/>
+ <Route path= "/login" element={<LoginPage />}/>
+ <Route path= "/signup" element={<SignupPage />}/>
+ </Routes>
+ </Stack>
+</Box>
+
+</Box>
+</BrowserRouter>
+   </>
   );
 }
 

@@ -1,0 +1,8 @@
+.tabs {
+    align-items: center;
+    justify-content: flex-end;
+    background-color: aliceblue;
+    height: 15;
+    min-width: fit-content;
+    position: relative;
+}
