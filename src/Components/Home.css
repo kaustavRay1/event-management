@@ -42,7 +42,7 @@
     padding-top: 3%;
 }
 
-.event-margin{  
+.event-margin {  
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -263,4 +263,34 @@ input:focus{
     align-items: center;
     justify-content: center;
     display: flex;
+}
+.clubs-margin{  
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.clubs-box{
+    width: 80%;             
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.clubs-block{
+    height: 32vh;
+    width: 37.75vw;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+}
+@media screen and (max-width: 1000px) {
+    .clubs-card-row{
+        flex-direction: column;
+    }
+    .clubs-block{
+        min-height: 30em;
+        min-width: 20em;
+        border-radius: 15px;
+        background-color: #D9D9D9;
+    }
 }

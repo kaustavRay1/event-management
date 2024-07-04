@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import EventTemplate from './Components/EventTemplate';
 import LoginPage from './Components/LoginPage';
 import SignupPage from './Components/SignupPage';
+import ClubTemplate from './Components/ClubTemplate';
 function App() {
   return (
     <>
@@ -24,6 +25,7 @@ function App() {
  <Route path= "/event" element={<EventTemplate />}/>
  <Route path= "/login" element={<LoginPage />}/>
  <Route path= "/signup" element={<SignupPage />}/>
+ <Route path= "/clubs" element={<ClubTemplate />}/>
  </Routes>
  </Stack>
 </Box>
