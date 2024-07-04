@@ -278,8 +278,7 @@ input:focus{
 }
 
 .clubs-block{
-    height: 32vh;
-    width: 37.75vw;
+    width: 80%;
     border-radius: 15px;
     background-color: #D9D9D9;
 }
