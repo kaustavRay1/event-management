@@ -13,7 +13,7 @@ const Navbar = () => {
    <Stack direction={"row"} spacing={3}>
    <Link to={"/"} style={{ textDecoration:"none" }}><Box><Typography sx={{color:"black"}}>Home</Typography></Box></Link>
    <Link to={"/"} style={{ textDecoration:"none" }}><Box><Typography sx={{color:"black"}}>Discover</Typography></Box></Link>
-   <Link to={"/"} style={{ textDecoration:"none" }}><Box><Typography sx={{color:"black"}}>Tickets</Typography></Box></Link>
+   <Link to={"/tickets"} style={{ textDecoration:"none" }}><Box><Typography sx={{color:"black"}}>Tickets</Typography></Box></Link>
    <Link to={"/clubs"} style={{ textDecoration:"none" }}><Box><Typography sx={{color:"black"}}>Clubs</Typography></Box></Link>
    </Stack>
    <Stack direction={"row"}>

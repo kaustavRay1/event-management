@@ -309,4 +309,29 @@ input:focus{
         border-radius: 15px;
         background-color: #D9D9D9;
     }
+    .tickets-block{
+        min-height: 20em;
+        min-width: 20em;
+        border-radius: 15px;
+        background-color: #D9D9D9;
+    }
+   
+}
+.tickets-box{
+    width: 80%;             
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.tickets-block{
+    width: 80%;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+}
+@media screen and (max-width: 1000px) {
+    .tickets-row{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }

@@ -7,6 +7,7 @@ import EventTemplate from './Components/EventTemplate';
 import LoginPage from './Components/LoginPage';
 import SignupPage from './Components/SignupPage';
 import ClubTemplate from './Components/ClubTemplate';
+import MyTickets from './Components/MyTickets';
 function App() {
   return (
     <>
@@ -26,6 +27,7 @@ function App() {
  <Route path= "/login" element={<LoginPage />}/>
  <Route path= "/signup" element={<SignupPage />}/>
  <Route path= "/clubs" element={<ClubTemplate />}/>
+ <Route path= "/tickets" element={<MyTickets />}/>
  </Routes>
  </Stack>
 </Box>
