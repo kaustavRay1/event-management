@@ -33,6 +33,23 @@
     width: 100%;
    
 }
+@media screen and (max-width: 500px){
+    .banner, .banner1{
+        height: 20em;
+        width: 80vw;
+        min-height: 30%;
+        border-radius: 15px;
+        background-color: aqua;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+   }
+   .carousel-items, .carousel-items1{
+    height: 20em;
+    width: 100%;
+   
+}
+}
 .club-row{
     width: 100vw ;
     align-items: center;
@@ -113,7 +130,7 @@
 }
 .queries-msg-input{
     background-color: aliceblue;
-    width: 55vw;
+    width: 52vw;
     border-radius: 12px;
    }
 .queries-msg-input-text{
