@@ -43,8 +43,8 @@ const UserProfileTemplate = () => {
                                     </Stack>
                                 </Card>
                             </Stack>
-                            <Box p={2} paddingTop={4}>
-                            <Typography variant='h6'>Clubs</Typography>
+                            <Box  paddingTop={4}>
+                            <Typography fontSize={"2em"}>Clubs</Typography>
                             <Stack direction={"row"} spacing={3}>
                             <Stack sx={{ justifyContent: "center", alignItems: "center",}}>
                             <Card sx={{ height: "8.37em", width: "8.37em", borderRadius: "100%" }}>                                         
