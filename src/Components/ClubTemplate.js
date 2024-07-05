@@ -1,5 +1,6 @@
 import { Box, Card, Stack, Typography } from '@mui/material'
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./Home.css"
 const ClubTemplate = () => {
   return (
@@ -13,7 +14,7 @@ const ClubTemplate = () => {
     <Stack p={4} spacing={1}>
         <Card sx={{height:"10.375em", width:"10.375em", borderRadius:"100%",}}>
         </Card>
-        <Typography variant='h4'>Google Developer Student Club-MSIT</Typography>
+        <Link to={"/club"} style={{ textDecoration:"none", color:"black" }}><Typography variant='h4'>Google Developer Student Club-MSIT</Typography></Link>
         <Typography variant='body'>Tech Club</Typography>
         <Typography variant='body'>Perform activity around</Typography>
         <Stack direction={"row"} spacing={2}>
@@ -28,7 +29,7 @@ const ClubTemplate = () => {
               </Card>
         </Stack>
     </Stack>
-    </Box>
+   </Box>
     <Box className="clubs-block">
     <Stack p={4} spacing={1}>
         <Card sx={{height:"10.375em", width:"10.375em", borderRadius:"100%",}}>

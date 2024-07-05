@@ -8,6 +8,8 @@ import LoginPage from './Components/LoginPage';
 import SignupPage from './Components/SignupPage';
 import ClubTemplate from './Components/ClubTemplate';
 import MyTickets from './Components/MyTickets';
+import ClubProfileTemplate from './Components/ClubProfileTemplate';
+import UserProfileTemplate from './Components/UserProfileTemplate';
 function App() {
   return (
     <>
@@ -28,6 +30,8 @@ function App() {
  <Route path= "/signup" element={<SignupPage />}/>
  <Route path= "/clubs" element={<ClubTemplate />}/>
  <Route path= "/tickets" element={<MyTickets />}/>
+ <Route path="/club" element={<ClubProfileTemplate/>}/>
+ <Route path="/user" element={<UserProfileTemplate/>}/>
  </Routes>
  </Stack>
 </Box>

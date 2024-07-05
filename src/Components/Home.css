@@ -335,3 +335,37 @@ input:focus{
         justify-content: center;
     }
 }
+.club-profile-banner{
+    height: 20em;
+    width: 100%;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+}
+.club-profile-img{
+    height: 10em;
+    width: 10em;
+    background-color:#C8C8C8;
+    border-radius: 100%;
+}
+.club-profile-title-row{
+    align-items: center;
+}
+@media screen and (max-width: 1000px) {
+.club-profile-title-row{
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+}
+.user-attended-event-card{
+    height: 22em;
+    width: 20em;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.circle-cards
+{
+    height: 100%;
+    width: 100%;
+}

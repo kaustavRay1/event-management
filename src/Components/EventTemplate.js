@@ -210,30 +210,35 @@ const EventTemplate = () => {
                     <Box className="event-team-row" paddingBottom={2}>
                     <Stack justifyContent={"center"} alignItems={"center"}>
                     <Card sx={{height:"7.5em", width:"7.5em", backgroundColor:"white", borderRadius:"100%"}}>
+                    <img src="" alt='' class="circle-cards"/>
                       </Card>
                       <Typography>Name</Typography>
                         <Typography variant='body2'>Name</Typography>
                       </Stack>
                       <Stack justifyContent={"center"} alignItems={"center"}>
                     <Card sx={{height:"7.5em", width:"7.5em", backgroundColor:"white", borderRadius:"100%"}}>
+                    <img src="" alt='' class="circle-cards"/>
                       </Card>
                       <Typography>Name</Typography>
                         <Typography variant='body2'>Name</Typography>
                       </Stack>
                       <Stack justifyContent={"center"} alignItems={"center"}>
                     <Card sx={{height:"7.5em", width:"7.5em", backgroundColor:"white", borderRadius:"100%"}}>
+                    <img src="" alt='' class="circle-cards"/>
                       </Card>
                       <Typography>Name</Typography>
                         <Typography variant='body2'>Name</Typography>
                       </Stack>
                       <Stack justifyContent={"center"} alignItems={"center"}>
                     <Card sx={{height:"7.5em", width:"7.5em", backgroundColor:"white", borderRadius:"100%"}}>
+                    <img src="" alt='' class="circle-cards"/>
                       </Card>
                       <Typography>Name</Typography>
                         <Typography variant='body2'>Name</Typography>
                       </Stack>
                       <Stack justifyContent={"center"} alignItems={"center"}>
                     <Card sx={{height:"7.5em", width:"7.5em", backgroundColor:"white", borderRadius:"100%"}}>
+                    <img src="" alt='' class="circle-cards"/>
                       </Card>
                       <Typography>Name</Typography>
                         <Typography variant='body2'>Name</Typography>
@@ -242,30 +247,35 @@ const EventTemplate = () => {
                    <Box className="event-team-row" paddingBottom={2}>
                     <Stack justifyContent={"center"} alignItems={"center"}>
                     <Card sx={{height:"7.5em", width:"7.5em", backgroundColor:"white", borderRadius:"100%"}}>
+                    <img src="" alt='' class="circle-cards"/>
                       </Card>
                       <Typography>Name</Typography>
                         <Typography variant='body2'>Name</Typography>
                       </Stack>
                       <Stack justifyContent={"center"} alignItems={"center"}>
                     <Card sx={{height:"7.5em", width:"7.5em", backgroundColor:"white", borderRadius:"100%"}}>
+                    <img src="" alt='' class="circle-cards"/>
                       </Card>
                       <Typography>Name</Typography>
                         <Typography variant='body2'>Name</Typography>
                       </Stack>
                       <Stack justifyContent={"center"} alignItems={"center"}>
                     <Card sx={{height:"7.5em", width:"7.5em", backgroundColor:"white", borderRadius:"100%"}}>
+                    <img src="" alt='' class="circle-cards"/>
                       </Card>
                       <Typography>Name</Typography>
                         <Typography variant='body2'>Name</Typography>
                       </Stack>
                       <Stack justifyContent={"center"} alignItems={"center"}>
                     <Card sx={{height:"7.5em", width:"7.5em", backgroundColor:"white", borderRadius:"100%"}}>
+                    <img src="" alt='' class="circle-cards"/>
                       </Card>
                       <Typography>Name</Typography>
                         <Typography variant='body2'>Name</Typography>
                       </Stack>
                       <Stack justifyContent={"center"} alignItems={"center"}>
                     <Card sx={{height:"7.5em", width:"7.5em", backgroundColor:"white", borderRadius:"100%"}}>
+                    <img src="" alt='' class="circle-cards"/>
                       </Card>
                       <Typography>Name</Typography>
                         <Typography variant='body2'>Name</Typography>
@@ -274,30 +284,35 @@ const EventTemplate = () => {
                    <Box className="event-team-row" paddingBottom={2}>
                     <Stack justifyContent={"center"} alignItems={"center"}>
                     <Card sx={{height:"7.5em", width:"7.5em", backgroundColor:"white", borderRadius:"100%"}}>
+                    <img src="" alt='' class="circle-cards"/>
                       </Card>
                       <Typography>Name</Typography>
                         <Typography variant='body2'>Name</Typography>
                       </Stack>
                       <Stack justifyContent={"center"} alignItems={"center"}>
                     <Card sx={{height:"7.5em", width:"7.5em", backgroundColor:"white", borderRadius:"100%"}}>
+                    <img src="" alt='' class="circle-cards"/>
                       </Card>
                       <Typography>Name</Typography>
                         <Typography variant='body2'>Name</Typography>
                       </Stack>
                       <Stack justifyContent={"center"} alignItems={"center"}>
                     <Card sx={{height:"7.5em", width:"7.5em", backgroundColor:"white", borderRadius:"100%"}}>
+                    <img src="" alt='' class="circle-cards"/>
                       </Card>
                       <Typography>Name</Typography>
                         <Typography variant='body2'>Name</Typography>
                       </Stack>
                       <Stack justifyContent={"center"} alignItems={"center"}>
                     <Card sx={{height:"7.5em", width:"7.5em", backgroundColor:"white", borderRadius:"100%"}}>
+                    <img src="" alt='' class="circle-cards"/>
                       </Card>
                       <Typography>Name</Typography>
                         <Typography variant='body2'>Name</Typography>
                       </Stack>
                       <Stack justifyContent={"center"} alignItems={"center"}>
                     <Card sx={{height:"7.5em", width:"7.5em", backgroundColor:"white", borderRadius:"100%"}}>
+                    <img src="" alt='' class="circle-cards"/>
                       </Card>
                       <Typography>Name</Typography>
                         <Typography variant='body2'>Name</Typography>
