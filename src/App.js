@@ -10,6 +10,9 @@ import ClubTemplate from './Components/ClubTemplate';
 import MyTickets from './Components/MyTickets';
 import ClubProfileTemplate from './Components/ClubProfileTemplate';
 import UserProfileTemplate from './Components/UserProfileTemplate';
+import ClubEventForm from './Components/ClubEventForm';
+import ClubEventFormAddSpeakers from './Components/ClubEventFormAddSpeakers';
+import ClubEventFormAdditionalDetails from './Components/ClubEventFormAdditionalDetails';
 function App() {
   return (
     <>
@@ -32,6 +35,9 @@ function App() {
  <Route path= "/tickets" element={<MyTickets />}/>
  <Route path="/club" element={<ClubProfileTemplate/>}/>
  <Route path="/user" element={<UserProfileTemplate/>}/>
+ <Route path="/clubeventform" element={<ClubEventForm/>}/>
+ <Route path="/clubeventformaddspeaker" element={<ClubEventFormAddSpeakers/>}/>
+ <Route path="/clubeventformadditionaldetails" element={<ClubEventFormAdditionalDetails/>}/>
  </Routes>
  </Stack>
 </Box>
