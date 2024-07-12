@@ -19,10 +19,10 @@ const ClubEventForm = () => {
             <Typography>Event Category</Typography>
             <NativeSelect sx={{height:"2em", width:"10em"}}>
                 <option>Choose Category</option>
-                <option>Fun</option>
-                <option>Torture</option>
-                <option>Kuch krenge</option>
-                <option>Torture++</option>
+                <option>Tech</option>
+                <option>Cultural</option>
+                <option>Sports</option>
+                <option>Art</option>
                 <option>All in One</option>
                 </NativeSelect>
             </Box>

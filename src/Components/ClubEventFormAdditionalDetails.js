@@ -33,18 +33,17 @@ const ClubEventFormAdditionalDetails = () => {
         
         <Box paddingTop={5}>
         <form className="event-form-block" onSubmit={handleSubmit}>
-            <Box  p={2} paddingTop={2}>
             <Box paddingTop={2} gap={2} p={2} >
                 <Box className="eventmcq-form-block">
       {inputs.map((input, index) => (
         <div key={index}>
-            <Box display={"flex"} gap={2}  p={2}>
+            <Box display={"flex"} gap={2}  p={2} className="form-flex-dir">
           <input
             type="text"
             value={input.value}
             onChange={(event) => handleInputChange(index, event)}
             placeholder="Untitled Question"
-            style={{ minWidth:"40vw", borderRadius:"6px", height:"2em",}}
+            style={{ minWidth:"35vw", borderRadius:"6px", height:"2em",}}
           /> <Box><NativeSelect type="dropdown" sx={{height:"2em", width:"9em",}}>
           <option>Multiple Choice</option>
          </NativeSelect></Box>
@@ -60,26 +59,22 @@ const ClubEventFormAdditionalDetails = () => {
       <Box paddingTop={2}>
       <button type="button" onClick={handleAddInput}  style={{ backgroundColor: "#1C1B1F", height: "2em", width: "6em", justifyContent: "center", alignItems:"center", display: "flex", borderRadius: "10px", color:"#ffff" }}>
         Add Input
-      </button></Box>
+      </button> </Box>
      
-                           <Box display={"flex"} alignItems={"center"} paddingTop={3} justifyContent={"space-between"}>
-                            <Box>
+                           <Box display={"flex"} alignItems={"center"} paddingTop={3} justifyContent={"space-between"} className="form-flex-dir">
                                 <Input type="reset" value={"Skip"} />
-                            </Box>
-                            <Box  sx={{display:"flex", justifyContent:"flex-end"}} gap={2}>
-                            <Box>
-                                <Link to={"/event"} style={{ textDecoration: 'none' }}><Card sx={{ backgroundColor: "#1C1B1F", height: "2em", width: "10em", justifyContent: "center", alignItems:"center", display: "flex", borderRadius: "10px", color:"#ffff" }}>
+                            <Box  sx={{display:"flex", justifyContent:"flex-end"}} gap={2} >
+                                <Link to={""} style={{ textDecoration: 'none' }}><Card sx={{ backgroundColor: "#1C1B1F", height: "2em", width: "10em", justifyContent: "center", alignItems:"center", display: "flex", borderRadius: "10px", color:"#ffff" }} >
                                 <Typography fontSize={"1em"}>Save as draft</Typography>
                             </Card></Link>
-                            </Box>
-                            <Box>
+                            
+                           
                             <button type="submit" style={{ backgroundColor: "#1C1B1F", height: "2em", width: "6em", justifyContent: "center", alignItems:"center", display: "flex", borderRadius: "10px", color:"#ffff" }}>Submit</button>
+                            
                             </Box>
                             </Box>
-                            </Box>
-
+                           
                      </Box>
-                 </Box>  
            </form>
         </Box>
         </Box>
