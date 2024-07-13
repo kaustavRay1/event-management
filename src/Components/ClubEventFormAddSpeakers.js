@@ -8,6 +8,18 @@ const ClubEventFormAddSpeakers = () => {
     <Box className= "content-block">
         
         <Box paddingTop={5}>
+        <Box paddingTop={2} paddingBottom={2} display={"flex"} gap={2} width={"100%"} overflow={"hidden"}>
+        <Stack width={"33%"}>
+        <Divider orientation="horizontal" style={{ backgroundColor: "#D9D9D9", height: "3px", width:"100%", borderRadius:"15px" }}/>
+        <Typography sx={{color:"#D9D9D9"}}>Details</Typography>
+        </Stack>
+        <Stack width={"33%"}>
+        <Divider orientation="horizontal" style={{ backgroundColor: "#1C1B1F", height: "3px", width:"100%", borderRadius:"15px" }}/>
+        <Typography sx={{color:"#1C1B1F"}}>Add Speaker</Typography>
+        </Stack><Stack width={"33%"}>
+        <Divider orientation="horizontal" style={{ backgroundColor: "#D9D9D9", height: "3px", width:"100%", borderRadius:"15px" }}/>
+        <Typography sx={{color:"#D9D9D9"}}>Additional Form</Typography>
+        </Stack></Box>
         <form className="event-form-block">
             <Box  p={2} paddingTop={2}>
                 <Box  gap={4} width={"100%"} display={"flex"} className="form-flex-dir" alignItems={"center"}>

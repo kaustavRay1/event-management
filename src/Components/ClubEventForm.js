@@ -1,13 +1,26 @@
 import React from 'react';
 import "./Home.css";
-import { Box, Input, NativeSelect, Select, Stack, Typography, Card } from '@mui/material';
+import { Box, Input, NativeSelect, Select, Stack, Typography, Card, Divider } from '@mui/material';
 import { Link } from 'react-router-dom';
 const ClubEventForm = () => {
   return (
     <Box className= "event-margin" >
     <Box className= "content-block">
-        
         <Box paddingTop={5}>
+        <Box paddingTop={2} paddingBottom={2} display={"flex"} gap={2} width={"100%"} overflow={"hidden"}>
+        <Stack width={"33%"}>
+        <Divider orientation="horizontal" style={{ backgroundColor: "#1C1B1F", height: "3px", width:"100%", borderRadius:"15px" }}/>
+        <Typography sx={{color:"#1C1B1F"}}>Details</Typography>
+        </Stack>
+        <Stack width={"33%"}>
+        <Divider orientation="horizontal" style={{ backgroundColor: "#D9D9D9", height: "3px", width:"100%", borderRadius:"15px" }}/>
+        <Typography sx={{color:"#D9D9D9"}}>Add Speaker</Typography>
+        </Stack>
+        <Stack width={"33%"}>
+        
+        <Divider orientation="horizontal" style={{ backgroundColor: "#D9D9D9", height: "3px", width:"100%", borderRadius:"15px" }}/>
+        <Typography sx={{color:"#D9D9D9"}}>Additional Form</Typography>
+        </Stack></Box>
         <form className="event-form-block">
             <Box  p={2} paddingTop={2}>
             <Box gap={4} width={"100%"} display={"flex"} className="form-flex-dir" justifyContent={"space-between"}>
