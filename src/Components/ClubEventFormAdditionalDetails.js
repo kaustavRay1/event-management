@@ -49,9 +49,9 @@ const ClubEventFormAdditionalDetails = () => {
          </NativeSelect></Box>
           </Box>
           <Box p={2}>
-            <input type='radio' value={"option1"} name="n1"/>option1 <br/>
-            <input type='radio' value={"option2"} name="n1"/>option2 <br/>
-            <input type='radio' value={"option3"} name="n1"/>option3
+            <input type='radio' value={"option1"} name="n1"/><input type='text'  className="option-name" placeholder={"option 1"}/> <br/>
+            <input type='radio' value={"option2"} name="n1"/><input type='text'  className="option-name" placeholder={"option 2"}/> <br/>
+            <input type='radio' value={"option3"} name="n1"/><input type='text'  className="option-name" placeholder={"option 3"}/>
           </Box>
         </div>
       ))}

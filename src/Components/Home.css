@@ -391,3 +391,9 @@ input:focus{
        flex-direction: column;
 }
 }
+.option-name{
+    border: none;
+}
+input:focus{
+    outline: none;
+}
