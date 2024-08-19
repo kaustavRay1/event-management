@@ -21,7 +21,12 @@ const UserProfileTemplate = () => {
 
                                 </Box>
                                 <Stack>
-                                    <Typography variant='h4'>User Name</Typography>
+                                    <Stack direction={"row"} justifyContent={"space-between"} alignItems={"center"}><Typography variant='h4'>User Name</Typography>
+                                    <Box display={"flex"} gap={2}>
+                                    <Card sx={{width:"6em", height:"2em", alignItems:"center", justifyContent:"center", display:"flex", backgroundColor:"aliceblue", borderRadius:"10px"}}> <Typography variant='p'>Share</Typography></Card>
+                                    <Link to={"/"} style={{ textDecoration:"none" }}><Card sx={{width:"6em", height:"2em", alignItems:"center", justifyContent:"center", display:"flex", backgroundColor:"aliceblue", borderRadius:"10px"}}> <Typography variant='p'>Edit Profile</Typography></Card></Link>
+                                    </Box>
+                                    </Stack>
                                     <Typography variant='body'>@username</Typography>
                                     <Typography variant='body'>CSE</Typography>
                                     <Typography variant='body'>CSE</Typography>
